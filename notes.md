@@ -4,7 +4,7 @@ Basic routing for Angular 4+
 1. Create repo in Github (with readme.md)
 2. Create new angular app via Angualar CLI:  
 `ng new angular-basic-routing --routing --prefix=md --style=scss`
-## Create Github repositoy
+## Create/Sync Github repositoy
 1. Create repo in Github
 2. Sync to Github from terminal in Angular app root directory:
 ```
