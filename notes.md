@@ -6,7 +6,7 @@ Create new angular app via Angualar CLI:
 `ng new angular-basic-routing --routing --prefix=md --style=scss`
 ## Create Github repositoy
 * Create repo in Github
-* In terminal in Angular app:
+* In terminal in Angular app:  
 ```
 git commit -m 'initial commit'
 git remote add origin https://kozigh01@github.com/kozigh01/angular-basic-routing.git
