@@ -10,6 +10,6 @@ Create new angular app via Angualar CLI:
 ```
 git commit -m 'initial commit'
 git remote add origin https://kozigh01@github.com/kozigh01/angular-basic-routing.git
-git pull origin master
+git pull origin master --allow-unrelated-histories
 git push -u origin master
 ```
