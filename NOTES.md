@@ -26,3 +26,5 @@ Basic routing for Angular 4+
     ng generate component feature2/subcomponents/subcomponent2_2 --module feature2
 ```
 
+## Notes
+1. Router module that contains the `{ path: '**', component: RouteNotFoundComponent }` path must be last in the app module "imports' section or the '\*\*' route will be hit before feature module routes.
