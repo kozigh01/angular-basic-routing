@@ -1,0 +1,10 @@
+<p>
+  Basic Route: first name = {{firstname}}, query parameter lastname: {{lastname}}
+</p>
+<div style="margin-bottom:10px;">
+  <a [routerLink]="['subcomponent1/dentist']">Child Route 1</a> |
+  <a [routerLink]="['subcomponent2/omaha']">Child Route 2</a>
+</div>
+<div style="border: 2px solid darkgreen; padding:2em;">
+  <router-outlet ></router-outlet>
+</div>

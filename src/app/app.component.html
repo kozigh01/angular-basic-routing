@@ -4,9 +4,11 @@
     {{ title }}
   </h1>
 </div>
-<div>
-  <a routerLink="['/component1']" routerLinkActie="">Component 1</a> |
-  <a routerLink="['/component2']" routerLinkActie="">Component 2</a>
+<div style="margin-bottom:10px;">
+  <a [routerLink]="['/']" >Home</a> |
+  <a [routerLink]="['/component1/123']" [queryParams]="{qp1: 'one'}" routerLinkActie="">Basic Route 1</a> |
+  <a [routerLink]="['/component1/456']" [queryParams]="{qp1: 'two'}" routerLinkActie="">Basic Route 2</a> |
+  <a [routerLink]="['/component2/bob']" [queryParams]="{lname: 'barker'}" routerLinkActie="">Basic Child Route</a>
 </div>
 
 
