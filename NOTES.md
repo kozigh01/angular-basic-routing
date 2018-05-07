@@ -14,5 +14,11 @@ Basic routing for Angular 4+
     git pull origin master --allow-unrelated-histories  
     git push -u origin master
  ```
-
+## Steps to create basic project structures
+```
+    ng generate module feature1 --module app
+    ng generate component feature1 --module feature1
+    ng generate component feature1sub1 --module feature1
+    ng generate component feature1sub2 --module feature1
+```
 
