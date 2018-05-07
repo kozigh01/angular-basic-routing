@@ -8,8 +8,8 @@ Basic routing for Angular 4+
 * Create repo in Github
 * In terminal in Angular app:  
 ```
-git commit -m 'initial commit'
-git remote add origin https://kozigh01@github.com/kozigh01/angular-basic-routing.git
-git pull origin master --allow-unrelated-histories
-git push -u origin master
+  git commit -m 'initial commit'
+  git remote add origin https://kozigh01@github.com/kozigh01/angular-basic-routing.git
+  git pull origin master --allow-unrelated-histories
+  git push -u origin master
 ```
