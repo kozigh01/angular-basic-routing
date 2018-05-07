@@ -7,11 +7,11 @@ Basic routing for Angular 4+
 ## Create Github repositoy
 1. Create repo in Github
 2. Sync to Github from terminal in Angular app root directory:  
-        ```
+```
         git commit -m 'initial commit'  
         git remote add origin https://kozigh01@github.com/kozigh01/angular-basic-routing.git  
         git pull origin master --allow-unrelated-histories  
         git push -u origin master
-        ```
+ ```
 
 
