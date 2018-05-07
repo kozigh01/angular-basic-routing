@@ -2,7 +2,7 @@
 Basic routing for Angular 4+
 ## Project Setup
 1. Create repo in Github (with readme.md)
-Create new angular app via Angualar CLI:
+Create new angular app via Angualar CLI:  
 `ng new angular-basic-routing --routing --prefix=md --style=scss`
 ## Create Github repositoy
 * Create repo in Github
