@@ -14,9 +14,9 @@ import { Feature2Module } from './feature2/feature2.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     Feature1Module,
-    Feature2Module
+    Feature2Module,
+    AppRoutingModule  // Must be last, or '**' route will be hit before feature routes
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -9,14 +9,15 @@ import { Subcomponent22Component } from './feature2/subcomponents/subcomponent2-
 const routes: Routes = [
   { path: '', redirectTo: 'component1/789', pathMatch: 'full' },
   { path: 'component1/:id', component: Component1Component },
-  {
-    path: 'component2/:fname',
-    component: Component2Component,
-    children: [
-      { path: 'subcomponent1/:occupation', component: Subcomponent21Component },
-      { path: 'subcomponent2/:location', component: Subcomponent22Component }
-    ]
-  },
+  // {
+  //   path: 'component2/:fname',
+  //   component: Component2Component,
+  //   children: [
+  //     { path: 'subcomponent1/:occupation', component: Subcomponent21Component },
+  //     { path: 'subcomponent2/:location', component: Subcomponent22Component }
+  //   ]
+  // },
+  { path: 'component2/:id', redirectTo: '/component2', pathMatch: 'full' },
   { path: '**', component: RouteNotFoundComponent }
 ];
 
