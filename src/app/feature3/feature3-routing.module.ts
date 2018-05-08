@@ -8,9 +8,9 @@ const routes: Routes = [
   {
     path: '', component: Component3Component,
     children: [
-      { path: '', component: Component3Component },
-      { path: 'sub1', component: Subcomponent31Component },
-      { path: 'sub2', component: Subcomponent32Component }
+      { path: '', redirectTo: 'sub1/testing', pathMatch: 'full' },
+      { path: 'sub1/:param1', component: Subcomponent31Component },
+      { path: 'sub2/:param2', component: Subcomponent32Component }
     ]
   }
 ];
