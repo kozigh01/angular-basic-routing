@@ -17,7 +17,6 @@ import { Feature3Module } from './feature3/feature3.module';
     BrowserModule,
     Feature1Module,
     Feature2Module,
-    Feature3Module,
     AppRoutingModule  // Must be last, or '**' route will be hit before feature routes
   ],
   providers: [],
