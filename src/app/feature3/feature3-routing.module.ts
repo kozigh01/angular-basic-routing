@@ -6,11 +6,9 @@ import { Subcomponent32Component } from './subcomponents/subcomponent3-2/subcomp
 
 const routes: Routes = [
   {
-    path: 'feature3', component: Component3Component,
-    // children: [
-    //   { path: '', component: Component3Component }
-    // ]
+    path: '', component: Component3Component,
     children: [
+      { path: '', component: Component3Component },
       { path: 'sub1', component: Subcomponent31Component },
       { path: 'sub2', component: Subcomponent32Component }
     ]
