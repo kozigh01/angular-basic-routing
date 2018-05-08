@@ -5,19 +5,13 @@ import { RouteNotFoundComponent } from './route-not-found/route-not-found.compon
 import { Component2Component } from './feature2/component2/component2.component';
 import { Subcomponent21Component } from './feature2/subcomponents/subcomponent2-1/subcomponent2-1.component';
 import { Subcomponent22Component } from './feature2/subcomponents/subcomponent2-2/subcomponent2-2.component';
+import { Feature3Module } from './feature3/feature3.module';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'component1/789', pathMatch: 'full' },
   { path: 'component1/:id', component: Component1Component },
-  // {
-  //   path: 'component2/:fname',
-  //   component: Component2Component,
-  //   children: [
-  //     { path: 'subcomponent1/:occupation', component: Subcomponent21Component },
-  //     { path: 'subcomponent2/:location', component: Subcomponent22Component }
-  //   ]
-  // },
-  { path: 'component2/:id', redirectTo: '/component2', pathMatch: 'full' },
+  { path: 'feature3', loadChildren: 'app/feature3/feature3.module#Feature3Module' },
   { path: '**', component: RouteNotFoundComponent }
 ];
 

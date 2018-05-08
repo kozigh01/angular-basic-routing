@@ -6,9 +6,10 @@
 </div>
 <div style="margin-bottom:10px;">
   <a [routerLink]="['/']" >Home</a> |
-  <a [routerLink]="['/component1/123']" [queryParams]="{qp1: 'one'}" routerLinkActie="">Basic Route 1</a> |
-  <a [routerLink]="['/component1/456']" [queryParams]="{qp1: 'two'}" routerLinkActie="">Basic Route 2</a> |
-  <a [routerLink]="['/component2/bob']" [queryParams]="{lname: 'barker'}" routerLinkActie="">Basic Child Route</a>
+  <a [routerLink]="['/component1/123']" [queryParams]="{qp1: 'one'}" routerLinkActive="">Basic Route 1</a> |
+  <a [routerLink]="['/component1/456']" [queryParams]="{qp1: 'two'}" routerLinkActive="">Basic Route 2</a> |
+  <a [routerLink]="['/component2/bob']" [queryParams]="{lname: 'barker'}" routerLinkActive="">Basic Child Route</a> |
+  <a [routerLink]="['/feature3']" routerLinkActive="">Lazy Load Route</a>
 </div>
 
 
