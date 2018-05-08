@@ -24,6 +24,11 @@ Basic routing for Angular 4+
     ng generate component feature2/component2 --module feature2
     ng generate component feature2/subcomponents/subcomponent2_1 --module feature2
     ng generate component feature2/subcomponents/subcomponent2_2 --module feature2
+    
+    ng generate module feature3 --routing --module app
+    ng generate component feature3/component3 --module feature3
+    ng generate component feature3/subcomponent3_1 --module feature3
+    ng generate component feature3/subcomponent3_2 --module feature3
 ```
 
 ## Notes
