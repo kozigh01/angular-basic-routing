@@ -1,11 +1,22 @@
 # angular-basic-routing
 Basic routing for Angular 4+
-## Project Setup
+
+## Local Setup
+At a command line, run following steps to clone and launch project:
+```
+>git clone https://github.com/kozigh01/angular-basic-routing.git
+>cd angular-basic-routing
+>npm install
+>ng serve --open
+```
+
+## Project Development Notes
+### Project Setup
 1. Create new angular app via Angualar CLI:  
 ```
     ng new angular-basic-routing --routing --prefix=md --style=scss
 ```
-## Create/Sync Github repositoy
+### Create/Sync Github repositoy
 1. Create repo in Github
 2. Sync to Github from terminal in Angular app root directory:
 ```
@@ -14,7 +25,7 @@ Basic routing for Angular 4+
     git pull origin master --allow-unrelated-histories  
     git push -u origin master
  ```
-## Steps to create basic project structures
+### Steps to create basic project structures
 ```
     ng generate module feature1 --routing --module app
     ng generate component feature1 --module feature1
@@ -31,5 +42,5 @@ Basic routing for Angular 4+
     ng generate component feature3/subcomponent3_2 --module feature3
 ```
 
-## Notes
+### Notes
 1. Router module that contains the `{ path: '**', component: RouteNotFoundComponent }` path must be last in the app module "imports' section or the '\*\*' route will be hit before feature module routes.
